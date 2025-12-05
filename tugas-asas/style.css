@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffeded;
+}
+#full {
+  font-family: "Archivo", sans-serif;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background-color: white;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.imagee {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.imagee img {
+  margin-bottom: 50px;
+  width: 500px;
+  /* height: 280px; */
+}
+.teks-one {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.button-one button {
+  color: white;
+  background-color: #666666;
+  border-radius: 4px;
+  padding: 5px 3.5px;
+  margin-bottom: 20px;
+}
+.teks-two {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.button-card button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+}
+.button-view button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.isi {
+  display: flex;
+}
+@media (min-width: 500px) {
+  #full {
+    background-color: white;
+  }
+  .container-semua {
+    display: flex;
+    flex-direction: row;
+  }
+  .beast {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .teks-one {
+    margin-top: 50px;
+  }
+  .button-one {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .imagee {
+    margin-top: 20px;
+  }
+  .teks-two {
+    margin-top: 10px;
+  }
+  .button-card {
+    margin-top: 30px;
+  }
+  .button-card button {
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .button-view {
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+  .button-view button {
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+}

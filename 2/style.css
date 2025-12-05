@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 10px 20px;
+  border-right: 1px solid #333;
+}
+.container h4 {
+  margin-left: 100px;
+}
+.container h1 {
+  margin-left: 100px;
+  margin-top: 10px;
+  /* padding: 0px 10px 5px; */
+}
+.isi {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.label-input {
+  margin-left: 100px;
+  position: absolute;
+  top: 190px;
+  z-index: 1;
+}
+.kotak-input {
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 0px;
+}
+.kotak-input input {
+  position: relative;
+}
+.teks-resend {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.tombol-verifikasi {
+  width: 350px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #515def;
+  color: white;
+  font-weight: 200px;
+  /* border-radius: 5px; */
+}
+.img-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-right img {
+  width: 35%;
+  height: 45%;
+  /* display: flex;
+  justify-content: end; */
+  margin-right: 45px;
+  margin-top: -268px;
+}
