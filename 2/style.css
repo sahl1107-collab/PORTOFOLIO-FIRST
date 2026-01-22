@@ -7,13 +7,14 @@ header {
   padding: 10px 20px;
   border-right: 1px solid #333;
 }
+
 .container h4 {
   margin-left: 100px;
 }
 .container h1 {
   margin-left: 100px;
-  margin-top: 10px;
-  /* padding: 0px 10px 5px; */
+  margin-top: 20px;
+  /* padding: 10px 10px 5px; */
 }
 .isi {
   margin-top: 10px;
@@ -21,27 +22,35 @@ header {
 }
 
 .label-input {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   position: absolute;
-  top: 190px;
+  top: -10px;
   z-index: 1;
+  background-color: white;
+  left: 8px;
 }
 .kotak-input {
   margin-top: 30px;
   margin-left: 100px;
   padding: 0px;
-}
-.kotak-input input {
   position: relative;
+  width: max-content;
+  background-color: red;
+}
+.custom-icon {
+  top: 2px;
+  right: 12px;
+  position: absolute;
 }
 .teks-resend {
+  position: relative;
   margin-left: 100px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .tombol-verifikasi {
   width: 350px;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 100px;
   background-color: #515def;
   color: white;
@@ -59,5 +68,8 @@ header {
   /* display: flex;
   justify-content: end; */
   margin-right: 45px;
-  margin-top: -268px;
+  margin-top: -290px;
+}
+.container-one {
+  align-items: center;
 }

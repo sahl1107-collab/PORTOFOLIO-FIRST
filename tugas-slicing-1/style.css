@@ -1,0 +1,128 @@
+/* Gaya Umum dan Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3ed; /* Warna latar belakang krem muda */
+  color: #333;
+}
+
+/* Header/Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #e28f40; /* Warna oranye atas */
+  border-bottom: 3px solid #1e3a8a; /* Garis biru di bawah navbar */
+}
+
+.logo-image {
+  height: 30px; /* Sesuaikan ukuran logo */
+}
+
+.nav-links a {
+  color: white; /* Warna teks tautan di navbar */
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.contact-btn {
+  background-color: white;
+  color: #e28f40;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Bagian Hero (Utama) */
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 80px 40px;
+  height: 80vh; /* Sesuaikan tinggi agar mirip gambar */
+}
+
+.content-left {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 50px;
+}
+
+.main-heading {
+  font-size: 50px;
+  line-height: 1.1;
+  font-weight: 800; /* Tebal sekali */
+  color: #333; /* Warna teks utama */
+  border: 3px solid #6aa84f; /* Garis hijau di sekitar teks utama */
+  padding: 10px;
+  display: inline-block; /* Agar garis hanya membungkus teks */
+}
+
+.sub-text {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: linear-gradient(
+    to right,
+    #f08084,
+    #e9957d
+  ); /* Gradien oranye/pink */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian Karakter (Kanan) */
+.content-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-container {
+  position: relative;
+  width: 450px; /* Sesuaikan ukuran */
+  height: 600px; /* Sesuaikan ukuran */
+  border: 3px solid #9fc5e8; /* Garis biru tipis di sekeliling gambar */
+}
+
+.character-bg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    #f9b66d,
+    #e28f40
+  ); /* Gradien oranye di belakang */
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.character-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: 2;
+  /* Catatan: Gambar asli yang diunggah adalah ilustrasi 3D, jadi Anda perlu mengganti 'character-placeholder.png' dengan gambar karakter Anda sendiri. */
+}

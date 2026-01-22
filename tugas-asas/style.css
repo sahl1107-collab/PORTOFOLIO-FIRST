@@ -54,7 +54,7 @@ body {
 .isi {
   display: flex;
 }
-@media (min-width: 500px) {
+@media (min-width: 391px) {
   #full {
     background-color: white;
   }

@@ -8,7 +8,7 @@
 
 /* BODY */
 body {
-  background-color: #f4f6fb;
+  /* background-color: #f4f6fb; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -19,10 +19,10 @@ body {
 .bungkus-besar {
   width: 900px;
   min-height: 520px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ body {
 .judul {
   font-size: 28px;
   margin-bottom: 10px;
-  color: #222;
+  color: black;
 }
 
 .deskripsi {
@@ -109,10 +109,10 @@ body {
   transition: 0.2s;
 }
 
-.input-kode:focus {
-  border-color: #4f46e5;
+/* .input-kode:focus {
+  border-color: blue;
   outline: none;
-}
+} */
 
 /* ICON MATA */
 .ikon-mata {
@@ -131,13 +131,14 @@ body {
 }
 
 .link-resend {
-  color: #4f46e5;
+  color: blue;
   text-decoration: none;
   font-weight: bold;
 }
 
 .link-resend:hover {
   text-decoration: underline;
+  background-color: aqua;
 }
 
 /* BUTTON */
@@ -149,7 +150,7 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
-  background-color: #4f46e5;
+  background-color: blue;
   color: white;
   border: none;
   font-size: 16px;
@@ -158,13 +159,13 @@ body {
 }
 
 .tombol-verifikasi:hover {
-  background-color: #3730a3;
+  background-color: green;
 }
 
 /* ================= KANAN ================= */
 .bagian-kanan {
   flex: 1;
-  background-color: #eef2ff;
+  /* background-color: white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,20 +179,4 @@ body {
 
 .gambar-keamanan {
   width: 100%;
-}
-
-/* ================= RESPONSIVE ================= */
-@media (max-width: 768px) {
-  .bungkus-besar {
-    flex-direction: column;
-    width: 95%;
-  }
-
-  .bagian-kanan {
-    order: -1;
-  }
-
-  .kotak-gambar {
-    max-width: 260px;
-  }
 }

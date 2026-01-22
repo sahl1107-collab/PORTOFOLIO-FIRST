@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+/* LOGO */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 25px 60px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header-logo img {
+  width: 40px;
+}
+
+/* WRAPPER BESAR */
+.container-full {
+  display: flex;
+  gap: 80px;
+  padding: 20px 80px 50px 80px;
+  min-height: 90vh;
+}
+
+/* ================== KIRI ================== */
+.container-kiri {
+  width: 45%;
+  padding-top: 40px;
+}
+
+.back {
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.container-kiri h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #333;
+  margin-bottom: 35px;
+}
+
+/* INPUT */
+.kotak-input {
+  position: relative;
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+.kotak-input label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.kotak-input input {
+  width: 100%;
+  padding: 10px 38px 10px 10px;
+  border: 1px;
+}
+
+.btn-verify {
+  width: 350px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 50pxpx;
+  background-color: #515def;
+  color: white;
+  font-weight: 200px;
+}
